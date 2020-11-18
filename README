@@ -1,0 +1,7 @@
+This directory includes C++ implementations of testing the performance of edge access in a graph.
+
+* pre: this directory contains some scripts implementing functions of preprocessing.
+
+* src/kgraph.cpp: thie file implements the graph store with CSR format and provides several infterfaces of the graph abstraction. Example input file is contained in ../data/blogcatalog.bin.
+
+* src/main.cpp: the entry of the program. It now tests the performance of the find_edge with binary search methods.
